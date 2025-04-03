@@ -143,42 +143,47 @@ body {
         position: relative;
         transform: translateY(0%);
         height: 330px;
-        right: 3px;
+        right: 6%;
         width: 90%;
-        left: 12px;
+        left: -10px;
     }
 
     .Down-But {
-        margin-top: 230px;
+        margin-top: 250px;
         width: 200px;
         height: 200px;
-        right: 134px;
+        right: 84px;
     }
 
     #img1 {
         transform: translateY(0%);
         height: 320px;
         width: 89%;
-
+        left: -8px;
+        position: relative;
     }
 
     .Up-But {
         top: 20px;
         margin-top: 110px;
         width: 60%;
-        left: 100px;
+        left: 54px;
     }
 
     .Footer-Link {
         position: relative;
         left: 20px;
         padding: 30px;
+        font-size: 70%;
+        padding: 10px;
     }
 
     .Footer-Para {
         text-align: center;
         position: relative;
         right: 21px;
+        font-size: 70%;
+        left: -20px;
     }
 
     .section-two {
