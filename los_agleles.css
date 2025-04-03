@@ -1,0 +1,717 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 ! important;
+    background-color: rgb(246, 230, 210);
+}
+
+.section-one {
+    background-color: rgb(179, 144, 98);
+    min-height: 12vh;
+    text-align: center;
+}
+
+#Main-Img-1 {
+    height: 620px;
+    background-position: 85% 1%;
+}
+
+#Main-Img-2 {
+    height: 620px;
+    background-position: 50% 5%;
+
+}
+
+#Main-Img-3 {
+    height: 620px;
+    background-position: 50% 1%;
+
+}
+
+.section-one a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    left: 8px;
+    display: inline-block;
+    margin: auto;
+    padding: 30px 40px;
+}
+
+.section-one a:hover {
+    text-decoration: underline;
+    color: rgb(135, 81, 10);
+    cursor: pointer;
+}
+
+.section-one h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 350%;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+    text-transform: uppercase;
+}
+
+.section-one h1:hover {
+    cursor: pointer;
+}
+
+.section-two {
+    background-color: rgb(232, 226, 218);
+}
+
+.One {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.Two {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.Three {
+    text-align: center;
+    margin-top: 20%;
+}
+
+.One-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.sen-1 {
+    margin-top: 44px;
+    font-weight: 400;
+}
+
+.sen-2 {
+    position: relative;
+    bottom: 10px;
+    font-weight: 400;
+}
+
+.But {
+    width: 110px;
+    height: 38px;
+    background-color: rgb(188, 139, 76);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border: none;
+}
+
+.But:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Two-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.Same-1 {
+    font-weight: 600;
+    position: relative;
+    top: 14px;
+}
+
+.Same {
+    font-weight: 400;
+}
+
+.Pre-1 {
+    font-weight: 500;
+}
+
+.Three-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.Three a {
+    display: block;
+    color: black;
+    font-weight: 500;
+}
+
+.Num {
+    position: relative;
+    top: 30px;
+}
+
+.Email {
+    position: relative;
+    top: 50px;
+}
+
+.bg-image {
+    background-image: url('Assets/LOS\ ANGELES_HOME_PAGE_IMG/sticky_img.jpg');
+    background-position: 55% 1%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+}
+
+.section-three {
+    background-color: rgb(232, 226, 218);
+}
+
+.Info_1 {
+    max-width: 46%;
+    height: 52vh;
+    padding: 24px 0 26px 80px;
+    opacity: 0;
+    transition: opacity 2.50s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Info_1.active {
+    animation: slideUp 1s ease-out forwards;
+}
+
+#Three-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Three-Pre {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 112%;
+    font-weight: 500;
+    text-align: justify;
+}
+
+#Sub-Heading {
+    text-align: center;
+    position: relative;
+    top: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: black;
+    left: 40px;
+}
+
+#Sub-Button {
+    position: relative;
+    left: 45%;
+    top: 10%;
+    width: 50%;
+    height: 42px;
+    background-color: rgb(188, 139, 76);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+#Sub-Button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section-four {
+    background-image: url('Assets/LOS ANGELES_HOME_PAGE_IMG/Center Img.jpg');
+    background-position: center;
+    background-position: 1% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Happ {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    top: 34px;
+    left: 28px;
+}
+
+
+.Img-Main {
+    background-image: url('Assets/LOS ANGELES_HOME_PAGE_IMG/Cup1\ Img.jpg');
+    background-position: center;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 80px;
+    top: 70px;
+}
+
+.section-five {
+    height: 520px;
+}
+
+.Cup-Heading {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    left: 26px;
+}
+
+.Farmer-Button {
+    height: 50px;
+    width: 140px;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: none;
+    color: rgb(251, 248, 245);
+    background-color: rgb(194, 137, 62);
+    top: 150px;
+    left: 350px;
+}
+
+.Farmer-Button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Cup-Pre {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    right: 14px;
+    font-size: 120%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.section-Six {
+    height: 650px;
+    background-color: rgb(188, 139, 76);
+}
+
+.section-Six .More {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    font-weight: 600;
+    position: relative;
+    top: 350px;
+    left: 120px;
+    padding: 30px;
+}
+
+.Six-Header {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.Six-Para {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 130px;
+}
+
+.Six-Button {
+    position: relative;
+    left: 45%;
+    height: 45px;
+    width: 10%;
+    border: none;
+    background-color: burlywood;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    top: 180px;
+}
+
+.Six-Button:hover {
+    background-color: rgb(238, 208, 169);
+    color: white;
+    cursor: pointer;
+}
+
+
+.section-Six .More:hover {
+    color: rgb(231, 202, 164);
+    cursor: pointer;
+}
+
+#Footer-Second {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 420px;
+    text-align: center;
+}
+
+#Footer-Second a:hover {
+    color: rgb(231, 202, 164);
+    cursor: pointer;
+}
+
+#Footer-Second a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 600;
+}
+
+#Footer-Third {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    position: relative;
+    top: 444px;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 ! important;
+    }
+
+
+    #Main-Img-1{
+        height: 950%;
+    }
+
+    #Main-Img-2{
+        height: 800%;
+    }
+
+
+    #Main-Img-3{
+        height: 800%;
+    }
+
+
+    .section-one {
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .section-one a {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .section-one h1 {
+        font-size: 2rem;
+        position: relative;
+        left: 6px;
+    }
+
+    .Three-Pre {
+        top: -0px;
+        left: 44px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        margin-right: 460px;
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px;
+        line-height: 1.6;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-right: 88px;
+        margin-bottom: 17%;
+    }
+
+    .Three a {
+        position: relative;
+        top: 1px;
+    }
+
+    * {
+        overflow-x: hidden;
+    }
+
+    .section-five,
+    .Happ {
+        height: 59%;
+        top: 1px;
+    }
+
+    .Img-Main {
+        margin-right: 50%;
+        width: 80%;
+    }
+
+
+    .section-para {
+        top: -40px;
+        left: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        margin-right: 460px;
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px;
+        line-height: 1.6;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-right: 88px;
+        margin-bottom: 18%;
+    }
+
+    #Sub-Heading {
+        font-size: 260%;
+        top: 1px;
+        font-weight: 500;
+        left: 2px;
+    }
+
+    #Sub-Button {
+        width: 50%;
+        height: 44px;
+        font-size: 14px;
+        top: -10px;
+        position: relative;
+        left: 76px;
+        text-align: center;
+    }
+
+    .Cup-Para {
+        height: 380px;
+    }
+
+    .Cup-Pre {
+        position: relative;
+        font-size: 15px;
+        text-align: justify;
+        padding: 10px;
+        line-height: 1.6;
+        white-space: normal;
+        word-wrap: break-word;
+        margin-right: 90px;
+        margin-bottom: 18%;
+        font-family: 'Times New Roman', Times, serif;
+        left: 40px;
+        top: 140px;
+    }
+
+    .Cup-Heading {
+        font-weight: 700;
+        position: relative;
+        left: 12px;
+        bottom: 40px;
+    }
+
+    .Img-Main {
+        position: relative;
+        left: 1%;
+    }
+
+    .Happ {
+        font-size: 36px;
+        margin-right: 20px;
+        left: 10px;
+        top: 17px;
+        position: relative;
+        right: 1px;
+        margin-top: 12px;
+    }
+
+    .section-Six {
+        height: 1200px;
+    }
+
+    .section-five {
+        height: 1;
+    }
+
+    .Six-Header {
+        font-size: 2rem;
+        position: relative;
+        top: 140px;
+    }
+
+    .Six-Para {
+        font-family: 2rem;
+        position: relative;
+        top: 150px;
+    }
+
+    .Six-Button {
+        width: 30%;
+        height: 40px;
+        font-size: 14px;
+        top: 26px;
+        position: relative;
+        left: 30px;
+        margin-top: 140px;
+        margin-left: 96px;
+    }
+
+    .More {
+        position: relative;
+        top: -1550px;
+        display: flex;
+        flex-direction: column;
+        right: 660px;
+        text-align: center;
+        line-height: 8px;
+        left: 100px;
+        margin-right: 150px;
+        bottom: -2px;
+    }
+
+    #Footer-Second {
+        top: 180px;
+        margin-top: 40px;
+        text-align: center;
+        position: relative;
+    }
+
+    #Footer-Third {
+        position: relative;
+        top: 200px;
+        font-size: 1rem;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .section-Six {
+        height: 900px;
+        background-color: rgb(188, 139, 76);
+        color: black;
+    }
+
+    #Img-Onee {
+        position: relative;
+        top: 50px;
+        left: 20px;
+        top: 1px;
+    }
+
+    #Img-Twoo {
+        position: relative;
+        top: 1px;
+        left: 24px;
+    }
+
+    .Info_1 {
+        height: 300px;
+        padding: 8px;
+        top: 1px;
+    }
+
+
+    .Farmer-Button {
+        position: relative;
+        top: -0%;
+        left: 110px;
+        bottom: -80px;
+    }
+
+    #FARMER {
+        position: relative;
+        top: 80px;
+        left: 110px;
+    }
+
+    #a-1 {
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+
+    #a-2 {
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+
+    #a-3 {
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+
+    #a-4 {
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+
+    #a-5 {
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+
+    #a-6 {
+        position: relative;
+        top: 100px;
+        left: 78px;
+    }
+
+}

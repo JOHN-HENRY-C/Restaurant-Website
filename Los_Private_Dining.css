@@ -1,0 +1,243 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 ! important;
+}
+
+
+.Img-1 {
+    background-image: url('Assets/Los_Private_Dining_Img/Top_Img.webp');
+    background-position: 60% 0% ;
+    background-attachment: fixed;
+    height: 220px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: fixed;
+    background-size: contain;
+}
+
+.Img-Word {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 60px;
+    left: 80px;
+    font-size: 600%;
+    color: white;
+}
+
+.box {
+    border: 2px solid black;
+    height: 1400px;
+    width: 76%;
+    position: relative;
+    top: 60px;
+    left: 170px;
+    box-shadow: 0 0 18px;
+    border: none;
+    background-color: snow;
+}
+
+.Top-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 26px;
+    left: 40px;
+    color: lightseagreen;
+    font-weight: 500;
+    font-size: 220%;
+}
+
+.Line {
+    position: relative;
+    top: 34px;
+}
+
+.Top-Para {
+    position: relative;
+    top: 40px;
+    left: 44px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Box-Contact {
+    position: relative;
+    top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 44px;
+    font-size: 180%;
+    color: lightseagreen;
+}
+
+.Letter,
+.Input-Box {
+    position: relative;
+    left: 150px;
+    top: 60px;
+    padding: 16px;
+    text-align: center;
+}
+
+.Input-Box {
+    position: relative;
+    height: 32px;
+    margin-left: 190px;
+    width: 270px;
+}
+
+.Letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+
+}
+
+#Mail-1 {
+    position: relative;
+    margin-left: 154px;
+}
+
+#Num-1 {
+    margin-left: 152px;
+}
+
+.Med-Para {
+    font-family: 'Times New Roman', Times, serif;
+    color: lightseagreen;
+    position: relative;
+    top: 80px;
+    left: 40px;
+}
+
+
+.Event {
+    position: relative;
+    top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 40px;
+    color: lightseagreen;
+    font-size: 160%;
+
+}
+
+
+#Letter-11,
+#Event-Menu {
+    position: relative;
+    top: 80px;
+}
+
+#Nature {
+    position: relative;
+    top: 90px;
+    right: 50px;
+}
+
+#Nature-1 {
+    position: relative;
+    top: 80px;
+    height: 80px;
+    width: 60%;
+    margin-left: 20px;
+}
+
+#Date-1 {
+    position: relative;
+    top: 100px;
+    margin-right: 90%;
+}
+
+#Date-2 {
+    left: 250px;
+    position: relative;
+    height: 40px;
+    width: 270px;
+}
+
+#Time-2 {
+    height: 30px;
+    width: 270px;
+    top: 70px;
+    left: 12%;
+}
+
+#Event-Menu {
+    position: relative;
+    margin-right: 60px;
+    color: black;
+}
+
+#Time-22 {
+    width: 270px;
+    position: relative;
+    left: 146px;
+}
+
+#Count {
+    position: relative;
+    width: 270px;
+    left: 84px;
+}
+
+
+#Last-2 {
+    height: 80px;
+    position: relative;
+    margin-left: 20px;
+    width: 60%;
+}
+
+#Submit {
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding: 0px;
+    top: 120px;
+    margin-left: 21px;
+    background-color: lightseagreen;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border-radius: 0px;
+    color: white;
+}
+
+#Submit:hover {
+    background-color: rgb(98, 218, 212);
+}
+
+#Foot_1 {
+    position: relative;
+    top: 60px;
+    margin-right: 20%;
+}
+
+#Selection {
+    position: relative;
+    top: 65px;
+    left: 170px;
+    height: 36px;
+    width: 240px;
+}
+
+#Company {
+    position: relative;
+    margin-left: 194px;
+}
+
+
+#Box-1 {
+    margin-left: 187px;
+}
+
+#Box-2 {
+    margin-left: 187px;
+}

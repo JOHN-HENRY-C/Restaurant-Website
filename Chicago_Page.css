@@ -1,0 +1,717 @@
+body {
+    overflow-x: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 ! important;
+}
+
+
+#Center {
+    position: relative;
+    left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 360%;
+    color: white;
+    position: relative;
+    left: 640px;
+    bottom: 24px;
+    text-transform: uppercase;
+}
+
+.Section-1 {
+    background-color: #333;
+    height: 90px;
+}
+
+.nav-item a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: #666565;
+}
+
+.nav-item {
+    padding: 40px;
+    position: relative;
+    right: 298px;
+}
+
+.nav-item-1 a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.nav-item-1 {
+    position: relative;
+    right: 70px;
+    padding: 40px;
+}
+
+#Move-1,
+#Move-2,
+#Move-3 {
+    position: relative;
+    right: 60px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 87vh;
+    width: auto;
+}
+
+.section-two {
+    background-color: #333;
+    color: white;
+    height: 310px;
+}
+
+.One {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.Two {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.Three {
+    text-align: center;
+    margin-top: 8%;
+}
+
+.One-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.sen-1 {
+    margin-top: 44px;
+    font-weight: 400;
+}
+
+.sen-2 {
+    position: relative;
+    bottom: 10px;
+    font-weight: 400;
+}
+
+.But {
+    width: 110px;
+    height: 38px;
+    background-color: rgb(188, 139, 76);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    border: none;
+}
+
+.But:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.Two-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.Same-1 {
+    font-weight: 600;
+    position: relative;
+    top: 20px;
+}
+
+.Same {
+    font-weight: 400;
+    position: relative;
+    position: relative;
+    top: 14px;
+}
+
+.Pre-1 {
+    font-weight: 500;
+}
+
+.Three-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+.Three a {
+    display: block;
+    color: black;
+    font-weight: 500;
+}
+
+.Num {
+    position: relative;
+    top: 30px;
+}
+
+.Email {
+    position: relative;
+    top: 50px;
+}
+
+.Three a {
+    color: white;
+}
+
+.Three a:hover {
+    cursor: pointer;
+    color: #717171;
+}
+
+
+.bg-image {
+    background-image: url('/Assets/CHICAGO_HOME_PAGE_IMG/One.webp');
+    background-position: 55% 1%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 420px;
+    width: 100%;
+}
+
+.section-three {
+    background-color: #333;
+}
+
+.Info_1 {
+    max-width: 42%;
+    height: 54vh;
+    padding: 24px 0 26px 80px;
+}
+
+#Three-Heading {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 60px;
+    color: white;
+}
+
+.Three-Pre {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+#Sub-Heading {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: white;
+    left: 20px;
+}
+
+#Sub-Button {
+    position: relative;
+    left: 28%;
+    top: 10%;
+    width: 50%;
+    height: 42px;
+    background-color: rgb(188, 139, 76);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+
+#Sub-Button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section-four {
+    background-image: url('Assets/CHICAGO_HOME_PAGE_IMG/Table.webp');
+    background-position: center;
+    background-position: 1% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Happ {
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    top: 50px;
+    left: 28px;
+    color: white;
+    font-size: 300%;
+}
+
+#Plate-Img {
+    width: 36vw;
+    position: relative;
+    left: 4%;
+    top: 140px;
+}
+
+#Second-Img {
+    width: 530px;
+    height: 410px;
+    position: relative;
+    top: 300px;
+    left: 160px;
+}
+
+.plate-para {
+    position: relative;
+    top: 340px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    left: 200px;
+}
+
+.plate-pre-Two {
+    color: white;
+    top: 380px;
+    position: relative;
+    left: 140px;
+}
+
+.plate-but-1 {
+    color: white;
+    background-color: rgb(165, 118, 56);
+    border: none;
+    height: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    width: 150px;
+    position: relative;
+    top: 380px;
+    left: 250px;
+}
+
+.plate-but-1:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.section-five {
+    height: 520px;
+}
+
+.Cup-Heading {
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    left: 30px;
+    color: white;
+    font-size: 240%;
+    text-transform: uppercase;
+}
+
+.Cup-Pre-One {
+    text-align: center;
+    position: relative;
+    top: 220px;
+    left: 28px;
+    color: white;
+}
+
+.section-Eight {
+    background-color: #333;
+    height: 1860px;
+}
+
+.cup-para-1 {
+    color: white;
+    position: relative;
+    top: 210px;
+    left: 318px;
+}
+
+.cap-but {
+    border: none;
+    position: relative;
+    top: 250px;
+    left: 338px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 130px;
+    height: 40px;
+    color: white;
+    background-color: rgb(167, 122, 63);
+    font-weight: 600;
+}
+
+.cap-but:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.Up-Head {
+    position: relative;
+    top: 530px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+
+.Up-Para {
+    position: relative;
+    top: 540px;
+    color: white;
+    text-align: center;
+
+}
+
+.Up-But {
+    position: relative;
+    top: 580px;
+    height: 45px;
+    width: 12%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(168, 114, 43);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border: none;
+    left: 650px;
+}
+
+.Up-But:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#Footer-First {
+    position: relative;
+    top: 600%;
+    color: white;
+    position: relative;
+    left: 210px;
+}
+
+#Footer-First a {
+    text-decoration: none;
+    color: white;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Footer-First a:hover {
+    color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+#Footer-Second {
+    position: relative;
+    top: 634%;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+#Footer-Second a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Footer-Second a:hover {
+    color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+#Footer-Third {
+    position: relative;
+    top: 220%;
+    color: white;
+    top: 778px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    .container-fluid {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 0 !important;
+        padding-bottom: 0 ! important;
+    }
+
+
+    #Center {
+        position: relative;
+        left: 44px;
+        bottom: 10px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 300%;
+    }
+
+    .nav-item a {
+        color: black;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-toggler {
+        border-color: white;
+        position: relative;
+        left: 86%;
+        bottom: 8px;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .navbar-nav .nav-item {
+        padding: 4px 5px 0px 60px;
+        position: relative;
+        left: -2px;
+        top: 10px;
+    }
+
+    .section-two{
+        height: 680px;
+    }
+
+    #Pic-One{
+        position: relative;
+        right: 30px;
+        min-width: 360px;
+        height: 400px;
+        top: 30px;
+    }
+
+    #Pic-Two{
+        position: relative;
+        right:30px;
+        height: 400px;
+        min-width: 360px;
+        top: 20px;
+    }
+
+    #Three-Heading{
+        font-size: 28px;
+        bottom: 20px;
+        position: relative;
+    }
+
+    .Three-Pre{
+        font-size: 16px;
+        text-align: justify;  
+        padding: 10px; 
+        line-height: 1.6;  
+        white-space: normal;  
+        word-wrap: break-word; 
+        position: relative;
+        margin-right: 70px;
+        margin-bottom:  22%;
+    }
+
+    .Happ{
+        font-size: 40px;
+        position: relative;
+        margin-right: -50px;
+        display: inline;
+        top: 30px;
+        left: 38px;
+    }
+
+    .Cup-Heading{
+        font-size: 26px;
+        position: relative;
+        margin-right: 120px;
+    }
+
+    #Plate-Img{
+        position: relative;
+        top: -86%;
+        height: 350px;
+        width: 250px;
+        left: 34px;
+    }
+
+    .cup-para-1{
+        position: relative;
+        margin-right: 80px;
+        bottom: 80px;
+        left: 60px;
+    }
+
+    .Cup-Para{
+        position: relative;
+        top: 260px;
+        left: 14px;
+    }
+
+    .Cup-Pre-One{
+        position: relative;
+        font-size: 16px;
+        text-align: justify;  
+        padding: 10px; 
+        line-height: 1.6;  
+        white-space: normal;  
+        word-wrap: break-word; 
+        margin-right: 90px;
+        margin-bottom: 18%;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+
+    .cap-but{
+        position: relative;
+        top: 180px;
+        left: 80px;
+    }
+
+    #Second-Img{
+        position: relative;
+        left: 50px;
+        width: 240px;
+        top: 40%;
+    }
+
+    .plate-para{
+        position: relative;
+        top: -50px;
+    }
+
+    #Now{
+        position: relative;
+        left: 58px;
+        top: -60px;
+        bottom: 220px;
+    }
+
+    .plate-pre-Two{
+        top: -40px;
+        left: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        position: relative;
+        margin-right: 460px;
+        font-size: 16px;
+        text-align: justify;  
+        padding: 10px; 
+        line-height: 1.6;  
+        white-space: normal;  
+        word-wrap: break-word; 
+        margin-right: 88px;
+        margin-bottom: 18%;
+    }
+
+    .plate-but-1{
+        position: relative;
+        top: -70px;
+        left: 86px;
+    }
+
+    .section-Eight{
+        background-color: #333;
+        height: 3080px;
+    }
+
+    .Up-Head{
+        position: relative;
+        top: 440px;
+        left: 18px;
+    }
+
+    .Up-Para{
+        position: relative;
+        top: 460px;
+        right: -14px;
+    }
+
+    .Up-But{
+        position: relative;
+        top: 500px;
+        left: 96px;
+        height: 44px;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 46%;
+    }
+
+    #Footer-First{
+        position: relative;
+        top: 600px;
+        left: 4%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        line-height: 10px;
+
+    }
+
+    #Footer-Second{
+        position: relative;
+        top: 660px;
+        left: 20px;
+    }
+
+    #Footer-Third{
+        position: relative;
+        top: 740px;
+        left: 14px;
+    }
+
+}
+ 

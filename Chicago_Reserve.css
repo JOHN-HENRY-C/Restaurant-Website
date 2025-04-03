@@ -1,0 +1,107 @@
+.Reservation-Container {
+    max-width: 650px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    margin: 50px auto;
+    height: 380px;
+}
+
+.Top_Head {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.70rem;
+    font-weight: 900;
+    position: relative;
+    top: 30px;
+    left: 21px;
+}
+
+.Top {
+    position: relative;
+    left: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: red;
+}
+
+.Top:hover {
+    color: rgb(224, 106, 106);
+    cursor: pointer;
+}
+
+.Same {
+    display: inline;
+    position: relative;
+    top: 44px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.Same:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+
+#Same-1 {
+    position: relative;
+    left: 20px;
+}
+
+
+#Same-2 {
+    position: relative;
+    left: 50px;
+}
+
+.Box_1 {
+    position: relative;
+    top: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.Side_But {
+    height: 38px;
+    border: none;
+    background-color: red;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 6px;
+    font-size: 99%;
+}
+
+.Side_But:hover {
+    cursor: pointer;
+    background-color: rgb(241, 109, 109);
+    color: white;
+}
+
+.Para {
+    position: relative;
+    top: 100px;
+    font-size: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    left: 20px;
+}
+
+.Boo {
+    font-size: 160%;
+    font-weight: 600;
+}
+
+.Footer {
+    position: relative;
+    top: 105px;
+    left: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Line {
+    color: black;
+    font-size: 8rem;
+    position: relative;
+    right: 46px;
+    bottom: 10px;
+}
