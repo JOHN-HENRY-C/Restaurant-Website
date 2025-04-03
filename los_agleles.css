@@ -196,7 +196,10 @@ body {
 
 .Info_1.active {
     animation: slideUp 1s ease-out forwards;
+    opacity: 1;
 }
+
+
 
 #Three-Heading {
     font-family: 'Times New Roman', Times, serif;
@@ -663,6 +666,14 @@ body {
         padding: 8px;
         top: 1px;
     }
+
+    @media (max-width: 576px) {
+    .Info_1 {
+        opacity: 1; 
+        position: relative;
+    }
+}
+
 
 
     .Farmer-Button {

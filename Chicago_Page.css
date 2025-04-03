@@ -182,7 +182,7 @@ body {
 
 
 .bg-image {
-    background-image: url('/Assets/CHICAGO_HOME_PAGE_IMG/One.webp');
+    background-image: url('Assets/CHICAGO_HOME_PAGE_IMG/One.webp');
     background-position: 55% 1%;
     background-repeat: no-repeat;
     background-attachment: fixed;
