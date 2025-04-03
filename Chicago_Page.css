@@ -491,7 +491,7 @@ body {
 
     #Center {
         position: relative;
-        left: 44px;
+        left: 68px;
         bottom: 10px;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
@@ -574,7 +574,7 @@ body {
         margin-right: -50px;
         display: inline;
         top: 30px;
-        left: 38px;
+        left: 60px;
     }
 
     .Cup-Heading{
@@ -588,14 +588,14 @@ body {
         top: -86%;
         height: 350px;
         width: 250px;
-        left: 34px;
+        left: 58px;
     }
 
     .cup-para-1{
         position: relative;
         margin-right: 80px;
         bottom: 80px;
-        left: 60px;
+        left: 80px;
     }
 
     .Cup-Para{
@@ -620,13 +620,13 @@ body {
     .cap-but{
         position: relative;
         top: 180px;
-        left: 80px;
+        left: 110px;
     }
 
     #Second-Img{
         position: relative;
-        left: 50px;
-        width: 240px;
+        left: 40px;
+        width: 290px;
         top: 40%;
     }
 
