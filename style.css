@@ -133,7 +133,7 @@ body {
     }
 
     .container-fluid {
-        padding-left: 30px !important;
+        padding-left: 0 !important;
         padding-right: 0 !important;
         padding-top: 0 !important;
         padding-bottom: 0 ! important;
@@ -145,7 +145,7 @@ body {
         height: 330px;
         right: 6%;
         width: 90%;
-        left: -10px;
+        left: 18px;
     }
 
     .Down-But {
@@ -159,23 +159,23 @@ body {
         transform: translateY(0%);
         height: 320px;
         width: 89%;
-        left: -8px;
+        left: 22px;
         position: relative;
     }
 
     .Up-But {
-        top: 20px;
+        top: 26px;
         margin-top: 110px;
         width: 60%;
-        left: 54px;
+        left: 76px;
     }
 
     .Footer-Link {
         position: relative;
-        left: 20px;
+        left: 60px;
         padding: 30px;
         font-size: 70%;
-        padding: 10px;
+        padding: 18px;
     }
 
     .Footer-Para {
@@ -183,7 +183,7 @@ body {
         position: relative;
         right: 21px;
         font-size: 70%;
-        left: -20px;
+        left: -10px;
     }
 
     .section-two {
