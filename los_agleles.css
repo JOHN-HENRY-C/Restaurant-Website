@@ -11,67 +11,85 @@ body {
     padding-right: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 ! important;
-    background-color: rgb(246, 230, 210);
+    /* background-color: rgb(246, 230, 210); */
 }
 
-.section-one {
-    background-color: rgb(179, 144, 98);
-    min-height: 12vh;
-    text-align: center;
-}
-
-#Main-Img-1 {
-    height: 620px;
-    background-position: 85% 1%;
-}
-
-#Main-Img-2 {
-    height: 620px;
-    background-position: 50% 5%;
-
-}
-
-#Main-Img-3 {
-    height: 620px;
-    background-position: 50% 1%;
-
-}
-
-.section-one a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    font-weight: 600;
-    color: white;
-    left: 8px;
-    display: inline-block;
-    margin: auto;
-    padding: 30px 40px;
-}
-
-.section-one a:hover {
-    text-decoration: underline;
-    color: rgb(135, 81, 10);
-    cursor: pointer;
-}
-
-.section-one h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 350%;
-    margin-top: 10px;
+#pri{
     position: relative;
-    left: 20px;
+    left: 60px;
+}
+
+#abt{
+    position: relative;
+    left: 94px;
+}
+
+#Center {
+    position: relative;
+    left: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 360%;
+    color: white;
+    position: relative;
+    left: 640px;
+    bottom: 24px;
     text-transform: uppercase;
 }
 
-.section-one h1:hover {
+.Section-1 {
+    background-color: rgb(188, 139, 76);
+    height: 90px;
+    position: relative;
+    z-index: 1050;
+}
+
+.nav-item a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    color: whitesmoke;
     cursor: pointer;
+}
+
+.nav-item {
+    padding: 40px;
+    position: relative;
+    right: 298px;
+}
+
+.nav-item-1 a {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 20px;
+}
+
+.nav-item-1 {
+    position: relative;
+    right: 70px;
+    padding: 40px;
+}
+
+#Move-1,
+#Move-2,
+#Move-3 {
+    position: relative;
+    right: 60px;
 }
 
 .section-two {
     background-color: rgb(232, 226, 218);
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 83vh;
+    width: auto;
 }
 
 .One {
@@ -145,20 +163,44 @@ body {
     font-weight: 500;
 }
 
-.Three a {
-    display: block;
+.Three-Heading {
     color: black;
     font-weight: 500;
+    position: relative;
+    top: 90px;
+    left: 50px;
 }
 
 .Num {
     position: relative;
-    top: 30px;
+    top: 150px;
+    left: 76px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 110%;
+    color: black;
+    text-decoration: none;
+}
+
+.Num:hover{
+    text-decoration: underline;
+    color: rgb(235, 153, 46);
+    cursor: pointer;
 }
 
 .Email {
     position: relative;
-    top: 50px;
+    top: 200px;
+    right: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.Email:hover{
+    text-decoration: underline;
+    color: rgb(235, 153, 46);
+    cursor: pointer;
 }
 
 .bg-image {
@@ -294,6 +336,7 @@ body {
 
 .section-five {
     height: 520px;
+    background-color: rgb(251, 234, 216);
 }
 
 .Cup-Heading {
@@ -441,35 +484,57 @@ body {
     }
 
 
-    #Main-Img-1{
-        height: 950%;
-    }
-
-    #Main-Img-2{
-        height: 800%;
-    }
-
-
-    #Main-Img-3{
-        height: 800%;
-    }
-
-
-    .section-one {
-        flex-direction: column;
-        padding: 10px;
-        text-align: center;
-    }
-
-    .section-one a {
-        display: block;
-        padding: 8px 0;
-    }
-
-    .section-one h1 {
-        font-size: 2rem;
+    #Center {
         position: relative;
-        left: 6px;
+        left: 90px;
+        bottom: 10px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 300%;
+    }
+
+    .nav-item a {
+        color: white;
+        font-size: 60%;
+    }
+
+    .nav-item a:hover{
+        color: black;
+        cursor: pointer;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar-toggler {
+        border-color: white;
+        position: relative;
+        left: 86%;
+        bottom: 8px;
+    }
+
+    .navbar-toggler-icon {
+        filter: invert(1);
+    }
+
+    .navbar-nav {
+        text-align: right;
+    }
+
+    .navbar-nav .nav-item {
+        padding: 4px 5px 0px 60px;
+        position: relative;
+        left: -2px;
+        top: 10px;
+    }
+
+
+    .Three-Heading{
+        position: relative;
+        
     }
 
     .Three-Pre {
@@ -490,7 +555,7 @@ body {
 
     .Three a {
         position: relative;
-        top: 1px;
+        top: -30px;
     }
 
     * {

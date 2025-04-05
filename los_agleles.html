@@ -16,56 +16,69 @@
 
 <body>
 
-    <div class="container-fluid section-one">
+    <div class="container-fluid Section-1">
+        <div class="col-12">
+            <nav class="navbar navbar-expand-sm ">
+                <div class="container-fluid">
 
-        <div class="row">
-            <div class="col-md-4 col-sm-4">
-                <a onclick="window.location.href = 'Los_Private_Dining.html'" class="Done">Private Dining</a>
-                <a href="#Three-Heading">About Us</a>
-            </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-            <div class="col-md-4 col-sm-4">
-                <h1>Zen & Zest</h1>
-            </div>
+                    <a class="navbar-brand " id="Center" href="#">Zen & Zest</a>
 
-            <div class="col-md-4 col-sm-4">
-                <a href="#">Menu</a>
-                <a href="#Time">Contact</a>
-                <a href="#Sub-Heading">Reserve</a>
-            </div>
-
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item"><a class="nav-link" onclick="window.location.href = 'Los_Private_Dining.html' " id="pri">PRIVATE DINING</a></li>
+                            <li class="nav-item"><a class="nav-link" id="abt" href="#Three-Heading" >ABOUT US</a></li>
+                        </ul>
+                        <ul class="navbar-nav ">
+                            <li class="nav-item" id="Move-1"><a class="nav-link" href="#">MENU</a></li>
+                            <li class="nav-item" id="Move-2"><a class="nav-link" href="#Time">CONTACT</a></li>
+                            <li class="nav-item" id="Move-3"><a class="nav-link" href="#Sub-Heading">RESERVE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
 
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
+    <div class="container-fluid">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="1100">
+                    <img src="Assets/LOS ANGELES_HOME_PAGE_IMG/Up_1.jpg" class="d-block w-100" alt="Hotel View">
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="1500">
+                    <img src="Assets/LOS ANGELES_HOME_PAGE_IMG/Up_2.jpg" class="d-block w-100" alt="Food Picture">
+                </div>
+    
+                <div class="carousel-item" data-bs-interval="1300">
+                    <img src="Assets/LOS ANGELES_HOME_PAGE_IMG/Up_3.jpg" class="d-block w-100" alt="Egg Image">
+                </div>
+    
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div class="carousel-inner" id="Main-Img-1">
-            <div class="carousel-item active" data-bs-interval="1200">
-                <img src="Assets/LOS ANGELES_HOME_PAGE_IMG/Up_1.jpg" class="d-block w-100" alt="Hotel View">
-            </div>
-            <div class="carousel-item" data-bs-interval="1500" id="Main-Img-2">
-                <img src="Assets/LOS ANGELES_HOME_PAGE_IMG/Up_2.jpg" class="d-block w-100" alt="Food View">
-            </div>
-            <div class="carousel-item" data-bs-interval="1500" id="Main-Img-3">
-                <img src="Assets/LOS ANGELES_HOME_PAGE_IMG/Up_3.jpg" class="d-block w-100" alt="Fruit's View">
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
+    </div>    
+
 
     <div class="container-fluid section-two">
         <div class="row">
@@ -97,13 +110,12 @@
             </div>
 
             <div class="col-md-4 col-sm-12">
-                <div class="Three">
                     <h2 class="Three-Heading">CONTACT</h2>
 
                     <a href="tel:213-799-4628" class="Num">214-799-4628</a>
 
                     <a href="mailto:info@zenandzest.com" class="Email">info@zenandzest.com</a>
-                </div>
+                
             </div>
         </div>
     </div>

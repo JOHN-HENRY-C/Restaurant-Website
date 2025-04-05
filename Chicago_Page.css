@@ -29,6 +29,8 @@ body {
 .Section-1 {
     background-color: #333;
     height: 90px;
+    position: relative;
+    z-index: 1050;
 }
 
 .nav-item a {
@@ -491,7 +493,7 @@ body {
 
     #Center {
         position: relative;
-        left: 68px;
+        left: 80px;
         bottom: 10px;
         text-align: center;
         font-family: 'Times New Roman', Times, serif;
@@ -499,7 +501,13 @@ body {
     }
 
     .nav-item a {
+        color: white;
+        font-size: 110%;
+    }
+
+    .nav-item a:hover{
         color: black;
+        cursor: pointer;
     }
 
     .navbar-brand {
