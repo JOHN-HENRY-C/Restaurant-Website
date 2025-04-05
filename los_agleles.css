@@ -540,16 +540,15 @@ body {
     #Numm{
         font-size: 80%;
         top: -8px;
-        font-family:'Courier New', Courier, monospace;
-        left: 72px;
+        font-family:'Times New Roman', Times, serif;
+        left: 78px;
     }
 
     #emaill{
         font-size: 96%;
         top: 7px;
-        right: 64px;
-        font-family:'Courier New', Courier, monospace
-
+        right: 30px;
+        font-family:'Times New Roman', Times, serif;
     }
 
     .Threee{
