@@ -533,18 +533,23 @@ body {
     #con{
         position: relative;
         left: 70px;
-        top: 8px;
+        top: 4px;
+        font-size: 130%;
     }
 
     #Numm{
-        font-size: 100%;
+        font-size: 80%;
         top: -8px;
+        font-family:'Courier New', Courier, monospace;
+        left: 72px;
     }
 
     #emaill{
         font-size: 96%;
         top: 7px;
-        right: 42px;
+        right: 64px;
+        font-family:'Courier New', Courier, monospace
+
     }
 
     .Threee{
