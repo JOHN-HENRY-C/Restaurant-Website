@@ -483,7 +483,6 @@ body {
         padding-bottom: 0 ! important;
     }
 
-
     #Center {
         position: relative;
         left: 90px;
@@ -531,10 +530,29 @@ body {
         top: 10px;
     }
 
-
-    .Three-Heading{
+    #con{
         position: relative;
-        
+        left: 70px;
+        top: 8px;
+    }
+
+    #Numm{
+        font-size: 100%;
+        top: -8px;
+    }
+
+    #emaill{
+        font-size: 96%;
+        top: 7px;
+        right: 42px;
+    }
+
+    .Threee{
+        position: relative;
+        top: -10px;
+        left: 60px;
+        right: 100px;
+        font-family: 'Times New Roman', Times, serif;
     }
 
     .Three-Pre {
