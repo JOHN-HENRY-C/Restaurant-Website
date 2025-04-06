@@ -732,7 +732,7 @@ body {
     }
 
     .section-Six {
-        height: 1060px;
+        height: 1100px;
         background-color: rgb(188, 139, 76);
         color: black;
     }
@@ -781,37 +781,37 @@ body {
     #a-1 {
         position: relative;
         top: 100px;
-        left: 78px;
+        left: 68px;
     }
 
     #a-2 {
         position: relative;
         top: 100px;
-        left: 78px;
+        left: 66px;
     }
 
     #a-3 {
         position: relative;
         top: 100px;
-        left: 78px;
+        left: 64px;
     }
 
     #a-4 {
         position: relative;
         top: 100px;
-        left: 78px;
+        left: 66px;
     }
 
     #a-5 {
         position: relative;
         top: 100px;
-        left: 78px;
+        left: 66px;
     }
 
     #a-6 {
         position: relative;
         top: 100px;
-        left: 78px;
+        left: 66px;
     }
 
 }
