@@ -11,8 +11,9 @@ body {
     padding-right: 0 !important;
     padding-top: 0 !important;
     padding-bottom: 0 ! important;
-    /* background-color: rgb(246, 230, 210); */
 }
+
+
 
 #pri{
     position: relative;
@@ -183,7 +184,6 @@ body {
 
 .Num:hover{
     text-decoration: underline;
-    color: rgb(235, 153, 46);
     cursor: pointer;
 }
 
@@ -199,7 +199,6 @@ body {
 
 .Email:hover{
     text-decoration: underline;
-    color: rgb(235, 153, 46);
     cursor: pointer;
 }
 
@@ -532,16 +531,16 @@ body {
 
     #con{
         position: relative;
-        left: 70px;
-        top: 4px;
-        font-size: 130%;
+        left: 74px;
+        top: 10px;
+        font-size: 120%;
     }
 
     #Numm{
         font-size: 80%;
         top: -8px;
         font-family:'Times New Roman', Times, serif;
-        left: 78px;
+        left: 80px;
     }
 
     #emaill{
