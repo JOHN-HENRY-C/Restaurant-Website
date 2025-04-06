@@ -491,9 +491,20 @@ body {
         font-size: 300%;
     }
 
+    #pri{
+        position: relative;
+        left: 2px;
+    }
+
+    #abt{
+        position: relative;
+        left: 2px;
+    }
+
     .nav-item a {
-        color: white;
-        font-size: 60%;
+        color: black;
+        font-size: 110%;
+        font-weight: 600;
     }
 
     .nav-item a:hover{
@@ -577,10 +588,6 @@ body {
     .Three a {
         position: relative;
         top: -30px;
-    }
-
-    * {
-        overflow-x: hidden;
     }
 
     .section-five,
@@ -669,10 +676,6 @@ body {
         margin-top: 12px;
     }
 
-    .section-Six {
-        height: 1200px;
-    }
-
     .section-five {
         height: 1;
     }
@@ -729,7 +732,7 @@ body {
     }
 
     .section-Six {
-        height: 900px;
+        height: 1060px;
         background-color: rgb(188, 139, 76);
         color: black;
     }

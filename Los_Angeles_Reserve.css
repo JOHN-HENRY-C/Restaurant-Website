@@ -104,3 +104,66 @@
     right: 46px;
     bottom: 10px;
 }
+
+
+@media (max-width: 576px){
+
+    .Top{
+        position: relative;
+        left: 280px;
+        bottom: 2px;
+    }
+
+    .Top_Head{
+        position: relative;
+        font-size:108%;
+        left: 1px;
+    }
+
+    #Same-1{
+        font-size: 110%;
+        position: relative;
+        left: 1px;
+    }
+
+    #Same-2{
+        font-size: 110%;
+        position: relative;
+        left: 20px;
+    }
+
+    .Line{
+        left: -20px;
+    }
+
+    #peo{
+        position: relative;
+        top: -12px;
+    }
+    #tim{
+        position: relative;
+        top: 2px;
+    }
+
+    #dat{
+        position: relative;
+        left: 14px;
+        top: -10px;
+    }
+
+    #but{
+        position: relative;
+        left: 28px;
+        top: 2px;
+    }
+    .Para{
+        position: relative;
+        top: 60px;
+    }
+
+    #Footer-First{
+        position: relative;
+        top: -52px;
+    }
+
+}
