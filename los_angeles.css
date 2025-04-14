@@ -575,22 +575,22 @@ body {
 
     #con {
         position: relative;
-        left: 74px;
-        top: 10px;
+        left: -64px;
+        top: -8px;
         font-size: 120%;
     }
 
     #Numm {
         font-size: 80%;
-        top: -8px;
+        top: -16px;
         font-family: 'Times New Roman', Times, serif;
-        left: 80px;
+        left: 2px;
     }
 
     #emaill {
         font-size: 96%;
-        top: 7px;
-        right: 30px;
+        top: 4px;
+        right: 108px;
         font-family: 'Times New Roman', Times, serif;
     }
 
