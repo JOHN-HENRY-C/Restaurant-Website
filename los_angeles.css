@@ -15,12 +15,12 @@ body {
 
 
 
-#pri{
+#pri {
     position: relative;
     left: 60px;
 }
 
-#abt{
+#abt {
     position: relative;
     left: 94px;
 }
@@ -83,14 +83,28 @@ body {
     right: 60px;
 }
 
-.section-two {
-    background-color: rgb(232, 226, 218);
-}
-
 .carousel-item img {
     object-fit: cover;
     height: 83vh;
     width: auto;
+}
+
+.section-two {
+    background-color: rgb(232, 226, 218);
+    transition: opacity 2.50s ease-out;
+
+}
+
+
+.One,.Two,.Threee{
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease-in-out;
+}
+
+.One.active,.Two.active,.Threee.active{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .One {
@@ -103,9 +117,22 @@ body {
     margin-top: 20%;
 }
 
-.Three {
+.Threee{
     text-align: center;
-    margin-top: 20%;
+    margin-top: 8%;
+    position: relative;
+
+}
+
+#con{
+    position: relative;
+    left: -3px;
+    top: 55px;
+}
+
+#Numm{
+    position: relative;
+    top: 100px;
 }
 
 .One-Heading {
@@ -182,14 +209,14 @@ body {
     text-decoration: none;
 }
 
-.Num:hover{
+.Num:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
 .Email {
     position: relative;
-    top: 200px;
+    top: 170px;
     right: 60px;
     font-family: 'Times New Roman', Times, serif;
     color: black;
@@ -197,7 +224,7 @@ body {
     font-size: 120%;
 }
 
-.Email:hover{
+.Email:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -225,7 +252,7 @@ body {
 
 @keyframes slideUp {
     from {
-        transform: translateY(100%);
+        transform: translateY(40%);
         opacity: 0;
     }
 
@@ -331,11 +358,17 @@ body {
     position: relative;
     left: 80px;
     top: 70px;
+    transition: opacity 2.50s ease-out;
+}
+
+.Img-Main.active{
+    animation: slideUp 1s ease-out forwards;
+    opacity: 1;
 }
 
 .section-five {
     height: 520px;
-    background-color: rgb(251, 234, 216);
+    background-color: rgb(232, 226, 218);
 }
 
 .Cup-Heading {
@@ -491,12 +524,12 @@ body {
         font-size: 300%;
     }
 
-    #pri{
+    #pri {
         position: relative;
         left: 2px;
     }
 
-    #abt{
+    #abt {
         position: relative;
         left: 2px;
     }
@@ -507,7 +540,7 @@ body {
         font-weight: 600;
     }
 
-    .nav-item a:hover{
+    .nav-item a:hover {
         color: black;
         cursor: pointer;
     }
@@ -540,28 +573,28 @@ body {
         top: 10px;
     }
 
-    #con{
+    #con {
         position: relative;
         left: 74px;
         top: 10px;
         font-size: 120%;
     }
 
-    #Numm{
+    #Numm {
         font-size: 80%;
         top: -8px;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
         left: 80px;
     }
 
-    #emaill{
+    #emaill {
         font-size: 96%;
         top: 7px;
         right: 30px;
-        font-family:'Times New Roman', Times, serif;
+        font-family: 'Times New Roman', Times, serif;
     }
 
-    .Threee{
+    .Threee {
         position: relative;
         top: -10px;
         left: 60px;
@@ -725,9 +758,8 @@ body {
 
     #Footer-Third {
         position: relative;
-        top: 200px;
+        top: 190px;
         font-size: 1rem;
-        margin-top: 40px;
         text-align: center;
     }
 
@@ -757,11 +789,11 @@ body {
     }
 
     @media (max-width: 576px) {
-    .Info_1 {
-        opacity: 1; 
-        position: relative;
+        .Info_1 {
+            opacity: 1;
+            position: relative;
+        }
     }
-}
 
 
 
